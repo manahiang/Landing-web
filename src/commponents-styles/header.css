@@ -1,0 +1,100 @@
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+.header {
+   width: 100%;
+    background-color: rgb(242, 237, 191);
+    margin: auto;
+}
+
+.menu {
+    max-width: 1780px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-bottom: 2px solid rgb(134, 132, 132);
+    padding: 10px;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo h3 {
+    color: rgb(251, 0, 213);
+    font-size: 20px;
+    padding-left: 20px;
+}
+.navbar{
+    position: relative;
+    width: 100%;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+
+ 
+}
+.navbar ul li{
+    list-style: none;
+    padding: 20px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    color: dimgrey;
+    transition: all 0.2s;
+    padding: 20px 0px;
+
+}
+ .navbar ul li a:hover{
+    color:rgb(26, 20, 27);
+    border-bottom: 2px solid #3509f7;
+    transform: skew(20deg);
+    color: blue;
+    
+}
+.active{
+    border-bottom: 2px solid rgb(37, 31, 31);
+    transform: skew(20deg);
+    transition: all 0.5s;
+
+}
+.active:hover{
+    border: none;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+.login p{
+    font-size: 20px;
+    padding: 0 20px;
+    color: rgb(69, 68, 68);
+    
+}
+.login .get-demo{
+    background-color: rgb(232, 12, 133);
+    padding:15px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    transform: translate(50px,0px);
+}

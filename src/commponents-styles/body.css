@@ -1,0 +1,423 @@
+.body {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+
+.control-body {
+    max-width: 1780px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.service {
+    padding: 10px;
+    position: relative;
+}
+
+.service .title {
+    width: 60%;
+    font-size: 70px;
+    color: rgb(70, 70, 68);
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.dialy {
+    color: #fe4c06;
+    border-bottom: 2px solid #fe4c06;
+    padding: 8px 0px;
+}
+
+.text {
+    font-size: 25px;
+    width: 40%;
+    margin-top: 60px;
+    font-family: system-ui;
+    ;
+}
+
+.g-t {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.get-start {
+    color: white;
+    background-color: black;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.transfer {
+    color: white;
+    background-color: rgb(238, 76, 22);
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Amonut1 */
+
+.k-p {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.plus-icon {}
+
+.k-p .plus-icon,
+.k {
+    font-size: 30px;
+}
+
+.k {
+    color: rgb(245, 79, 8);
+}
+
+.text1 {
+    transform: translate(0px, -40px);
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+/* Image with Tangle */
+.image-tangle {
+    position: absolute;
+    right: 10%;
+    top: 0%;
+    z-index: 1;
+
+}
+
+.image-tangle img {
+    width: 500px;
+    z-index: 3;
+}
+
+.tangle {
+    width: 800px;
+    height: 540px;
+    background: linear-gradient(to right, #f5af19, #f12711);
+    position: absolute;
+    right: -22%;
+    top: 15%;
+    z-index: -1;
+    border-radius: 20%;
+}
+
+.internet-logo {
+    position: absolute;
+    z-index: 2;
+    top: 29%;
+    right: 60%;
+    width: 100px;
+    transform: rotate(90deg);
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60px;
+}
+
+.system {
+    border: 1px solid rgb(205, 171, 171);
+    padding-left: 50px;
+}
+
+.system p {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.system h4 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.arrow {
+    transform: translate(10px, 4px);
+    color: rgb(245, 79, 8);
+    font-weight: 700;
+}
+
+/* Customized card */
+
+.customized-card {
+    display: flex;
+    margin-top: 150px;
+    max-width: 1780px;
+}
+
+.card {
+    width: 500px;
+}
+
+.subtitle {
+    font-size: 60px;
+    text-align: center;
+}
+
+.describe {
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+
+.grid-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-com {
+    border-bottom: 1px solid black;
+}
+
+.text-com {
+    font-size: 25px;
+    font-weight: 800;
+    padding: 25px;
+}
+
+.gift-icon {
+    width: 40px;
+    padding-left: 35px;
+}
+
+.com {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.card-com1 {
+    border-bottom: 1px solid;
+    border-right: 1px solid black;
+}
+
+.card-com2 {
+    border-bottom: 1px solid;
+}
+
+.card-com3 {
+    border-bottom: 1px solid;
+    border-right: 1px solid black;
+}
+
+.card-com4 {
+    border-bottom: 1px solid;
+}
+
+/* Features */
+.features {
+    background-image: url(https://img.freepik.com/free-vector/smooth-white-wave-background_52683-55288.jpg?w=2000);
+
+    width: 100%;
+    margin-top: 150px;
+}
+
+.features-sub {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 70px;
+    padding: 70px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sub-underline {
+    color: rgb(245, 79, 8);
+    border-bottom: 5px solid rgb(245, 79, 8);
+
+}
+
+/* Grid Features */
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.grid-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 7rem;
+    padding: 30px;
+    width: 90%;
+
+}
+
+.center-expert {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.expert {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 80%;
+}
+
+.expert img {
+    width: 100px;
+    padding: 50px 15px;
+    background-color: rgb(250, 89, 3);
+    border-radius: 20px;
+    margin-top: -100px;
+}
+
+.main-text {
+    margin-left: 20px;
+}
+
+.main-text h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main-text p {
+    font-size: 25px;
+}
+
+/* Work */
+.work {
+
+    margin-top: 300px;
+    position: relative;
+}
+
+.work-value {
+    background-color: #ffffff;
+    width: 50%;
+    height: 1000px;
+}
+
+.work-title {
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+.work-title-un {
+    color: #fe4c06;
+    padding: 20px;
+    border-bottom: 3px solid;
+}
+
+.work-des {
+    font-size: 25px;
+    padding: 20px;
+    line-height: 1.6;
+    color: rgb(33, 28, 28);
+}
+
+.main-order {
+    margin-top: 50px;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.circle-order {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(62, 43, 43);
+    display: flex;
+    border-radius: 10px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    color: white;
+
+}
+
+.order-text {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.open-acc {
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    border: 3px;
+    background-color: #fe4c06;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+/* Work Image */
+
+
+.image1,
+.image2 {
+    position: absolute;
+    width: 700px;
+    border-radius: 30px;
+    right: 0;
+    top: 1%;
+}
+
+.image1 {
+    right: 12%;
+    z-index: 2;
+}
+
+.image2 {
+    top: 30%;
+    right: 5%;
+    z-index: 2;
+}
+.tangle1{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #f0a503, #c43c2c);
+    position: absolute;
+    top: -5%;
+    border-radius: 40px;
+    z-index: 1;
+    right: 8%;
+}
+.tangle2{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, #f0a503, #c43c2c);
+    position: absolute;
+    top: 70%;
+    border-radius: 20px;
+    z-index: 1;
+    right: 3%;
+}
