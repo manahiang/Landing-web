@@ -78,8 +78,6 @@
 
 }
 
-.plus-icon {}
-
 .k-p .plus-icon,
 .k {
     font-size: 30px;
@@ -114,7 +112,7 @@
 }
 
 .tangle {
-    width: 800px;
+    width: 780px;
     height: 540px;
     background: linear-gradient(to right, #f5af19, #f12711);
     position: absolute;
@@ -167,11 +165,10 @@
     display: flex;
     margin-top: 150px;
     max-width: 1780px;
+    align-items: center;
+    justify-content: center;
 }
 
-.card {
-    width: 500px;
-}
 
 .subtitle {
     font-size: 60px;
@@ -182,11 +179,15 @@
     font-size: 25px;
     padding-right: 10px;
     line-height: 1.5;
+    width: 80%;
+    margin: auto;
 }
 
 .grid-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
 }
 
 .card-com {
@@ -229,6 +230,10 @@
     border-bottom: 1px solid;
 }
 
+.card-image {
+    width: 700px;
+}
+
 /* Features */
 .features {
     background-image: url(https://img.freepik.com/free-vector/smooth-white-wave-background_52683-55288.jpg?w=2000);
@@ -265,7 +270,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 7rem;
-    padding: 30px;
+    padding: 20px;
     width: 90%;
 
 }
@@ -309,14 +314,16 @@
 /* Work */
 .work {
 
-    margin-top: 300px;
+    margin-top: 100px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .work-value {
     background-color: #ffffff;
     width: 50%;
-    height: 1000px;
+    padding: 0px 20px;
 }
 
 .work-title {
@@ -380,7 +387,10 @@
 }
 
 /* Work Image */
-
+.image-work {
+    position: relative;
+    margin: 0px 30px;
+}
 
 .image1,
 .image2 {
@@ -401,7 +411,8 @@
     right: 5%;
     z-index: 2;
 }
-.tangle1{
+
+.tangle1 {
     width: 200px;
     height: 200px;
     background: linear-gradient(to right, #f0a503, #c43c2c);
@@ -411,7 +422,8 @@
     z-index: 1;
     right: 8%;
 }
-.tangle2{
+
+.tangle2 {
     width: 100px;
     height: 100px;
     background: linear-gradient(to right, #f0a503, #c43c2c);
@@ -420,4 +432,237 @@
     border-radius: 20px;
     z-index: 1;
     right: 3%;
+}
+
+
+
+
+/* Bank for tomorrow */
+
+.tomorrow {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 1000px;
+    margin-top: 100px;
+}
+
+.tmr-subtitle {
+    font-size: 80px;
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.tmr-subtitle-un {
+    color: #fe4c06;
+    border-bottom: 5px solid;
+
+    padding: 20px;
+}
+
+.tomorrow .text-des {
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+}
+
+/* Box Image */
+
+.tomorrow .box {
+    width: 90%;
+    height: 600px;
+    background-image: url(https://thedailycable.com/wp-content/uploads/2022/05/money-freedom.webp);
+    margin: auto;
+    background-repeat: no-repeat;
+    transform: translate(0px, 100px);
+    border-radius: 100px;
+    background-size: cover;
+
+}
+
+.tomorrow .box-overlay {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 600px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-circle {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(238, 145, 145);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-display {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(245, 86, 86);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.play-icon {
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Customer */
+
+.customer {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZybI4zVBfFZNtwsUNZPaTI_wbuNvq4n_1Yw&usqp=CAU);
+    width: 100%;
+
+    margin-top: 250px;
+}
+
+.cus-overlay {
+    background-color: rgba(186, 186, 208, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.cus-subtitle {
+    font-size: 80px;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transform: translate(0px, 100px);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.cus-say {
+    width: 100%;
+    margin-top: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-pro {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box-pro1 {
+    width: 160px;
+    height: 160px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-pro2 {
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-image: url();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-pro3 {
+    width: 160px;
+    height: 160px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-pro4 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.pro-img {
+    width: 94%;
+    height: 94%;
+    border-radius: 50%;
+}
+
+.arrow-pro {
+    font-size: 30px;
+    color: white;
+}
+
+/* Rate */
+
+.rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rate img {
+    width: 50px;
+    padding: 5px;
+    transform: translate(20px, 0px);
+}
+
+.customer-text {
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    margin-top: 90px;
+    line-height: 1.6;
+    text-shadow: 0px 0px 5px black;
+}
+
+.cus-name {
+    color: white;
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.ltd {
+    color: white;
+    color: white;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 400;
+    padding-bottom: 100px;
 }

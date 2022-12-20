@@ -1,0 +1,151 @@
+.footer {
+    width: 100%;
+
+}
+
+.control-footer {
+    max-width: 1780px;
+    margin: auto;
+    background-color: white;
+}
+
+.center-footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.left-footer {
+    background-color: red;
+
+}
+
+.logo-name img {
+    width: 70px;
+    background: linear-gradient(to bottom, #f0a503, #c43c2c);
+    border-radius: 20px;
+
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-name {
+    font-size: 40px;
+    margin-left: 10px;
+    color: #f1540b;
+}
+
+.footer-text {
+    width: 100%;
+    margin-left: 6px;
+    text-align: left;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.c-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.c-camera {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(246, 137, 3);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #f0a503, #c43c2c);
+}
+
+.camera {
+    width: 30px;
+    height: 30px;
+}
+
+.c-camera1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(246, 137, 3);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.camera1 {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.center-footer-menu {
+    text-align: left;
+}
+
+.center-footer-menu p {
+    font-size: 25px;
+    line-height: 1.6;
+}
+.right-footer {
+    display: flex;
+    justify-content: center;
+}
+.number-cus-care {
+    font-size: 40px;
+}
+
+.cus-care {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.headphone {
+    font-size: 20px;
+}
+
+.number-cus-care1 {
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.cus-care1 {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.headphone1 {
+    font-size: 20px;
+}
+
+.end-page {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(39, 42, 44);
+}

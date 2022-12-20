@@ -1,0 +1,542 @@
+@media (max-width:1720px) {
+    .menu {
+        margin: 0 20px;
+    }
+
+    .service {
+        margin-left: 40px;
+
+    }
+
+    .service .title {
+        width: 50%;
+        font-size: 70px;
+        color: rgb(70, 70, 68);
+        font-family: sans-serif;
+        line-height: 1.4;
+    }
+
+    .dialy {
+        color: #fe4c06;
+        border-bottom: 2px solid #fe4c06;
+        padding: 5px 0px;
+    }
+
+    .text {
+        font-size: 25px;
+        width: 40%;
+        margin-top: 60px;
+        text-align: left;
+        font-family: system-ui;
+        ;
+    }
+
+    .g-t {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    .get-start {
+        color: white;
+        background-color: black;
+        padding: 20px 40px;
+        border-radius: 10px;
+        font-size: 20px;
+        border: 0px;
+        outline: none;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    .transfer {
+        color: white;
+        background-color: rgb(238, 76, 22);
+        padding: 20px 40px;
+        border-radius: 10px;
+        font-size: 20px;
+        border: 0px;
+        outline: none;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+
+
+    /* Image with Tangle */
+    .image-tangle {
+        position: absolute;
+        right: 11%;
+        top: 2%;
+        z-index: 1;
+
+    }
+
+    .image-tangle img {
+        width: 500px;
+        z-index: 3;
+        margin-right: 5px;
+    }
+
+    .tangle {
+        width: 700px;
+        height: 543px;
+        background: linear-gradient(to right, #f5af19, #f12711);
+        position: absolute;
+        right: -22%;
+        top: 15%;
+        z-index: -1;
+        border-radius: 15%;
+    }
+
+    .internet-logo {
+        position: absolute;
+        z-index: 2;
+        top: 35%;
+        right: 53%;
+        width: 70px;
+        transform: rotate(90deg);
+    }
+
+
+
+
+    .system {
+        border: 1px solid rgb(205, 171, 171);
+        padding-left: 50px;
+    }
+
+    .system p {
+        font-size: 25px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+
+    .system h4 {
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .arrow {
+        transform: translate(10px, 4px);
+        color: rgb(245, 79, 8);
+        font-weight: 700;
+    }
+
+    .card-image {
+        width: 500px;
+
+    }
+
+    .customized-card {
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width:1550px) {
+    .menu {
+        margin: 0 20px;
+    }
+
+
+    .g-t {
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    .get-start {
+        color: white;
+        background-color: black;
+        padding: 20px 40px;
+        border-radius: 10px;
+        font-size: 20px;
+
+    }
+
+    .transfer {
+        color: white;
+        background-color: rgb(238, 76, 22);
+        padding: 20px 40px;
+        border-radius: 10px;
+        font-size: 20px;
+        border: 0px;
+        outline: none;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+
+
+    /* Image with Tangle */
+
+
+
+
+    .internet-logo {
+        position: absolute;
+        z-index: 2;
+        top: 35%;
+        right: 60%;
+        width: 80px;
+        transform: rotate(90deg);
+
+    }
+
+    .log-in {
+        font-size: 20px;
+        margin-right: 100px;
+    }
+
+    .btn-demo {
+        outline: none;
+        font-size: 25px;
+        padding: 0px 30px;
+        background-color: rgb(250, 58, 10);
+        border: 0px;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .image-work {
+
+        margin-top: 300px;
+        flex-direction: column;
+        display: none;
+    }
+
+    .work-value {
+        background-color: #ffffff;
+        width: 100%;
+        margin: 0px 20px;
+    }
+
+    .open-acc {
+        padding: 10px;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        border: 3px;
+        background-color: #fe4c06;
+        border-radius: 20px;
+        margin-left: 20px;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+
+    .grid-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin-top: 100px;
+        position: relative;
+    }
+
+    .footer-menu {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 50px;
+    }
+
+    .right-footer {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 50px;
+    }
+
+
+}
+
+@media (max-width:1300px) {
+    .menu {
+        margin: 0 20px;
+    }
+
+    .navbar ul li a {
+        font-size: 17px;
+        margin-left: -20px;
+    }
+
+    .login p {
+        font-size: 17px;
+        padding: 0 20px;
+        color: rgb(69, 68, 68);
+
+    }
+
+    .login .get-demo {
+        background-color: rgb(232, 12, 133);
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        color: white;
+        transform: translate(30px, 0px);
+    }
+
+    .service .title {
+        font-size: 50px;
+    }
+
+    .g-t {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    .get-start {
+        color: white;
+        background-color: black;
+        padding: 20px 40px;
+        border-radius: 10px;
+        font-size: 15px;
+        border: 0px;
+        outline: none;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    .transfer {
+        color: white;
+        background-color: rgb(238, 76, 22);
+        padding: 20px 40px;
+        border-radius: 10px;
+        font-size: 15px;
+        border: 0px;
+        outline: none;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+
+
+    /* Image with Tangle */
+    .image-tangle {
+        position: absolute;
+        right: 11%;
+        top: 2%;
+        z-index: 1;
+
+    }
+
+    .image-tangle img {
+        width: 400px;
+        z-index: 3;
+        margin-right: 5px;
+    }
+
+    .tangle {
+        width: 600px;
+        height: 434px;
+        background: linear-gradient(to right, #f5af19, #f12711);
+        position: absolute;
+        right: -22%;
+        top: 15%;
+        z-index: -1;
+        border-radius: 15%;
+    }
+
+    .internet-logo {
+        position: absolute;
+        z-index: 2;
+        top: 35%;
+        right: 55%;
+        width: 70px;
+        transform: rotate(90deg);
+        display: none;
+    }
+
+    .log-in {
+        font-size: 20px;
+        margin-right: 60px;
+    }
+
+    .btn-demo {
+        outline: none;
+        font-size: 20px;
+        padding: 0px 30px;
+        background-color: rgb(250, 82, 10);
+        border: 0px;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+
+}
+
+
+@media (max-width:1100px) {
+    .menu {
+        margin: 0 20px;
+    }
+
+    .navbar ul li a {
+        font-size: 15px;
+        margin-left: -25px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .logo h3 {
+        color: rgb(251, 0, 213);
+        font-size: 16px;
+        transform: translate(-40px, 0px);
+    }
+
+    .log-in {
+        font-size: 15px;
+        margin-right: 50px;
+    }
+
+    .btn-demo {
+        outline: none;
+        font-size: 15px;
+        padding: 0px 10px;
+        background-color: #fe4c06;
+        border: 0px;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+
+
+    }
+
+
+    .service .title {
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .service .text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .g-t {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .get-start {
+        color: white;
+        background-color: black;
+        padding: 20px 40px;
+        border-radius: 10px;
+        font-size: 15px;
+        border: 0px;
+        outline: none;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    .transfer {
+        color: white;
+        background-color: rgb(238, 76, 22);
+        padding: 20px 40px;
+        border-radius: 10px;
+        font-size: 15px;
+        border: 0px;
+        outline: none;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+
+    .image-tangle {
+        position: absolute;
+        right: 10%;
+        top: 0%;
+        z-index: 1;
+        display: none;
+
+    }
+
+    /* Image with Tangle */
+    .image-tangle img {
+        width: 350px;
+        z-index: 3;
+        margin-right: 5px;
+    }
+
+    .tangle {
+        width: 550px;
+        height: 379px;
+        background: linear-gradient(to right, #f5af19, #f12711);
+        position: absolute;
+        right: -22%;
+        top: 15%;
+        z-index: -1;
+        border-radius: 15%;
+    }
+
+    .internet-logo {
+        display: none;
+    }
+
+    .system {
+        border: 1px solid rgb(205, 171, 171);
+        padding-left: 50px;
+    }
+
+    .system p {
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+
+    .system h4 {
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .arrow {
+        transform: translate(10px, 4px);
+        color: rgb(245, 79, 8);
+        font-weight: 700;
+    }
+
+    .text {
+        font-size: 20px;
+        width: 40%;
+        margin-top: 60px;
+        font-family: system-ui;
+        ;
+    }
+
+    .features-sub {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        line-height: 1.5;
+        font-size: 40px;
+        padding: 10px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .main-open-acc {
+
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+}

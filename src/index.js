@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './commponents-styles/header.css'
 import './commponents-styles/body.css';
+import './commponents-styles/footer.css';
+import './commponents-styles/responsive.css';
+import './commponents-styles/responive2.css';
+import './commponents-styles/responsive3.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
