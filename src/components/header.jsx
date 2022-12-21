@@ -371,7 +371,7 @@ function Header() {
                     </div>
                     <hr />
                     <p className='end-page'>
-                        Coppyright 2022 SportBank. alright reserved.
+                        Coppyright © 2022 SportBank. alright reserved.
                     </p>
                 </div>
 

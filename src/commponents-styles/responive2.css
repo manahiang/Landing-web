@@ -1,6 +1,6 @@
 @media (max-width:950px) {
     .menu {
-        margin: 0 20px;
+        margin: 0;
 
     }
 
@@ -36,7 +36,7 @@
     }
 
     .g-t {
-        width: 50%;
+        width: 60%;
         display: flex;
         justify-content: space-between;
         margin-top: 60px;
@@ -276,6 +276,30 @@
         margin-top: 20px;
         padding-bottom: 40px;
     }
+    .c-footer {
+        width: 35%;
+    }
+    
+    .c-camera {
+        width: 40px;
+        height: 40px;
+        
+    }
+    
+    .camera {
+        width: 25px;
+       
+    }
+    
+    .c-camera1 {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .camera1 {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 
@@ -286,23 +310,26 @@
         position: relative;
 
     }
+    .menu{
+        margin: 0px;
+    }
 
     .navbar ul {
         flex-direction: column;
         background-color: rgb(238, 146, 17);
-        width: 120px;
+        width: 100px;
         line-height: 0.6;
         position: absolute;
-        margin-right: -20px;
+        margin-right: -45px;
         right: 0;
         margin-top: -20px;
-        border-radius: 20px;
+        border-radius: 10px;
         z-index: 4;
         line-height: 0.4;
     }
 
     .navbar ul li {
-        transform: translate(0px, 10px);
+        transform: translate(20px, 10px);
     }
 
     .navbar ul li a {
@@ -324,7 +351,7 @@
     }
 
     .g-t {
-        width: 70%;
+        width: 80%;
         display: flex;
         justify-content: space-between;
         margin-top: 60px;
@@ -353,7 +380,10 @@
         cursor: pointer;
         font-weight: 600;
     }
-
+    .grid {
+        grid-template-columns: 1fr;
+        width: 70%; 
+    }
 
 
     /* Image with Tangle */
@@ -431,34 +461,42 @@
         border-radius: 20px;
         color: white;
         cursor: pointer;
+        width: 100%;
 
     }
 
     .menu-icon {
         display: block;
         cursor: pointer;
+        margin-right: 20px;
+        font-size: 25px;
     }
 
     .icon-close {
-        margin-left: 30px;
-        margin-top: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
         font-size: 20px;
         transform: translate(0px, 10px);
         cursor: pointer;
         display: block;
     }
+    .active {
+        border-bottom: 1px solid rgba(29, 10, 238, 0.924);
+        transition: all 0.5s;
+    
+    }
 
     .log-in {
         padding: 20px 20px;
         font-weight: 700;
-        transform: translate(-20px, 0px);
+        transform: translate(-0px, 0px);
         color: white;
 
     }
 
     .btn-demo {
-        transform: translate(-10px, 10px);
-        padding: 10px;
+        transform: translate(-0px, 10px);
+        padding: 5px;
     }
 
     .grid-features {

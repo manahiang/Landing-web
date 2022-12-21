@@ -1,8 +1,7 @@
 @media (max-width:630px) {
     .menu {
-        margin: 0 20px;
+        margin: 0px;
     }
-
     .login .get-demo {
         width: 30%;
     }
@@ -39,13 +38,6 @@
         font-size: 50px;
     }
 
-    .g-t {
-        width: 80%;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 60px;
-    }
-
     .get-start {
         color: white;
         background-color: black;
@@ -57,20 +49,6 @@
         cursor: pointer;
         font-weight: 700;
     }
-
-    .transfer {
-        color: white;
-        background-color: rgb(238, 76, 22);
-        padding: 20px 40px;
-        border-radius: 10px;
-        font-size: 15px;
-        border: 0px;
-        outline: none;
-        cursor: pointer;
-        font-weight: 600;
-    }
-
-
 
     /* Image with Tangle */
     .image-tangle img {
@@ -387,6 +365,19 @@
         margin-top: 20px;
         padding-bottom: 40px;
     }
+    .footer-text{
+        font-size: 20px;
+    }
+    .center-footer-menu p{
+        font-size: 25px;
+    }
+    .number-cus-care,.number-cus-care1{
+        font-size: 30px;
+    }
+    .g-t {
+        width: 90%;
+        margin-top: 60px;
+    }
 }
 
 
@@ -397,19 +388,15 @@
         margin-left: -30px;
 
     }
+    .menu{
+        margin: 0px;
+    }
 
     .system h4 {
         font-size: 12px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
         margin-left: -60px;
-    }
-
-    .g-t {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 60px;
     }
 
     .amount {
@@ -617,6 +604,47 @@
         margin-top: 20px;
         padding-bottom: 40px;
     }
+    .footer-text{
+        font-size: 20px;
+    }
+    .center-footer-menu p{
+        font-size: 25px;
+    }
+    .number-cus-care,.number-cus-care1{
+        font-size: 30px;
+    }
+    .c-footer {
+        width: 45%;
+    }
+    
+    .c-camera {
+        width: 40px;
+        height: 40px;
+        
+    }
+    
+    .camera {
+        width: 25px;
+       
+    }
+    
+    .c-camera1 {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .camera1 {
+        width: 20px;
+        height: 20px;
+    }
+    .g-t {
+        flex-direction: column;
+        margin-top: 60px;
+        
+    }
+    .transfer{
+        margin-top: 20px;
+    }
 }
 
 
@@ -630,6 +658,9 @@
         margin-left: -30px;
 
     }
+    .menu{
+        margin: 0px;
+    }
 
     .system h4 {
         font-size: 12px;
@@ -639,9 +670,7 @@
     }
 
     .g-t {
-        width: 100%;
-        display: inline;
-        justify-content: space-between;
+       flex-direction: column;
         margin-top: 60px;
     }
 
@@ -661,32 +690,6 @@
         font-weight: 700;
     }
 
-    .get-start {
-        color: white;
-        background-color: black;
-        padding: 20px 40px;
-        border-radius: 10px;
-        font-size: 20px;
-        border: 0px;
-        outline: none;
-        cursor: pointer;
-        font-weight: 700;
-        margin-bottom: 20px;
-        margin-left: 55px;
-    }
-
-    .transfer {
-        color: white;
-        background-color: rgb(238, 76, 22);
-        padding: 20px 40px;
-        border-radius: 10px;
-        font-size: 20px;
-        border: 0px;
-        outline: none;
-        cursor: pointer;
-        margin-left: 15px;
-        font-weight: 600;
-    }
 
     .card-image {
         width: 300px;
@@ -924,6 +927,16 @@
         margin-top: 20px;
         padding-bottom: 40px;
     }
-
-
+    .footer-text{
+        font-size: 20px;
+    }
+    .center-footer-menu p{
+        font-size: 25px;
+    }
+    .number-cus-care,.number-cus-care1{
+        font-size: 30px;
+    }
+    .c-footer{
+       width: 80%;
+    }
 }

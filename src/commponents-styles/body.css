@@ -113,13 +113,13 @@
 
 .tangle {
     width: 780px;
-    height: 540px;
+    height: 543px;
     background: linear-gradient(to right, #f5af19, #f12711);
     position: absolute;
     right: -22%;
     top: 15%;
     z-index: -1;
-    border-radius: 20%;
+    border-radius: 15%;
 }
 
 .internet-logo {

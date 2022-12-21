@@ -1,6 +1,6 @@
 @media (max-width:1720px) {
     .menu {
-        margin: 0 20px;
+        margin: 0;
     }
 
     .service {
@@ -137,7 +137,7 @@
 
 @media (max-width:1550px) {
     .menu {
-        margin: 0 20px;
+        margin: 0;
     }
 
 
@@ -169,12 +169,17 @@
         font-weight: 600;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 20px;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
 
 
     /* Image with Tangle */
-
-
-
 
     .internet-logo {
         position: absolute;
@@ -187,14 +192,15 @@
     }
 
     .log-in {
-        font-size: 20px;
+        font-size: 25px;
         margin-right: 100px;
     }
 
     .btn-demo {
         outline: none;
         font-size: 25px;
-        padding: 0px 30px;
+        padding: 0px 20px;
+        width: 17%;
         background-color: rgb(250, 58, 10);
         border: 0px;
         border-radius: 20px;
@@ -247,13 +253,15 @@
         justify-content: flex-start;
         margin-top: 50px;
     }
-
-
+    .c-footer {
+        width: 20%;
+    }
+    
 }
 
 @media (max-width:1300px) {
     .menu {
-        margin: 0 20px;
+        margin: 0;
     }
 
     .navbar ul li a {
@@ -276,7 +284,7 @@
         color: white;
         transform: translate(30px, 0px);
     }
-
+   
     .service .title {
         font-size: 50px;
     }
@@ -312,6 +320,9 @@
         font-weight: 600;
     }
 
+    .grid {
+        width: 90%;
+    }
 
 
     /* Image with Tangle */
@@ -358,7 +369,8 @@
     .btn-demo {
         outline: none;
         font-size: 20px;
-        padding: 0px 30px;
+        padding: 0px 20px;
+        width: 20%;
         background-color: rgb(250, 82, 10);
         border: 0px;
         border-radius: 20px;
@@ -366,14 +378,17 @@
         cursor: pointer;
 
     }
-
-
+    .c-footer {
+       
+        width: 30%;
+    }
+    
 }
 
 
 @media (max-width:1100px) {
     .menu {
-        margin: 0 20px;
+        margin: 0px;
     }
 
     .navbar ul li a {
@@ -453,6 +468,14 @@
         cursor: pointer;
         font-weight: 600;
     }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 20px;
+        width: 90%;
+        text-align: center;
+    }
+
 
 
     .image-tangle {
@@ -499,6 +522,7 @@
     .system h4 {
         font-size: 25px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: -40px;
     }
 
     .arrow {
@@ -534,9 +558,37 @@
         justify-content: center;
     }
 
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: auto;
+    .c-footer {
+        width: 35%;
+    }
+    
+    .c-camera {
+        width: 40px;
+        height: 40px;
+        
+    }
+    
+    .camera {
+        width: 25px;
+       
+    }
+    
+    .c-camera1 {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .camera1 {
+        width: 20px;
+        height: 20px;
+    }
+    .center-amount {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .amount{
+        width: 40%;
     }
 }
